@@ -1,0 +1,39 @@
+header {
+    height: 100px;
+    width: 1000px;
+    margin: 0 auto;
+}
+li {
+    float: left;
+    line-height: 100px;
+    padding: 0 10px;
+}
+.logo {
+    float: left;
+}
+.logo img {
+    height: 100px;
+}
+nav ul {
+    float: left;
+}
+header nav {
+    float: left;
+}
+header .user {
+    float: right;
+}
+ 
+.user ul:first-child {
+    display: block;
+}
+.user ul:last-child {
+    display: none;
+}
+ 
+.islogin ul:first-child {
+    display: none;
+}
+.islogin ul:last-child {
+    display: block;
+}
